@@ -1,0 +1,51 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 24px;
+  max-width: 1140px;
+  margin: 20px auto;
+  padding: 24px;
+  background-image: url("https://assets.codepen.io/7248/grid-1.png");
+  border: 1px solid #000;
+}
+
+header.primary {
+  grid-column: 1 / -1;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+#content {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 24px;
+  min-height: 0;
+}
+
+#blog {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+aside {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+footer.primary {
+  grid-column: 1 / -1;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
