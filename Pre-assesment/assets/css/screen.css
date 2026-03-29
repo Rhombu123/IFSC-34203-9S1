@@ -105,6 +105,14 @@ body {
 	border: 2px solid #CCC;
 	margin: 10px 0 10px 15px;
 }
+#content .course-screenshot {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 10px 0 20px;
+	border: 1px solid #CCC;
+	clear: both;
+}
 .favorite-link:hover {
 	background-color: #FFE5B4;
 }
