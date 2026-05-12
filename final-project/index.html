@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The Rooted Table — farm-to-table dining in Portland, Oregon. Reservations, seasonal menu, and local producers."
+    />
+    <title>The Rooted Table | Farm-to-Table Portland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "The Rooted Table",
+        "description": "Farm-to-table restaurant in Portland, Oregon, partnering with Willamette Valley growers.",
+        "url": "https://example.org/the-rooted-table",
+        "servesCuisine": "Pacific Northwest",
+        "priceRange": "$$$",
+        "telephone": "+1-503-555-0182",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "428 NW 12th Avenue",
+          "addressLocality": "Portland",
+          "addressRegion": "OR",
+          "postalCode": "97209",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="#top">The Rooted Table</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#specials">Menu</a></li>
+            <li><a href="#producers">Our Producers</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+          </ul>
+          <div class="site-nav__book">
+            <a class="btn-book" href="#reservations">Book A Table</a>
+          </div>
+        </nav>
+        <a class="header-book btn-book" href="#reservations">Book A Table</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-line2">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <p class="hero__kicker" id="hero-line1">Where the Field,</p>
+          <h1 class="hero__title" id="hero-line2">Meets the Table,</h1>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Highlights">
+        <div class="stats__grid">
+          <div>
+            <p class="stats__num">14+</p>
+            <p class="stats__label">Local Farms</p>
+          </div>
+          <div>
+            <p class="stats__num">100%</p>
+            <p class="stats__label">Organic Ingredients</p>
+          </div>
+          <div>
+            <p class="stats__num">Seasonal</p>
+            <p class="stats__label">Menu updated quarterly</p>
+          </div>
+          <div>
+            <p class="stats__num">Since 2018</p>
+            <p class="stats__label">Serving Portland</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story" id="producers" aria-labelledby="story-heading">
+        <div class="story__inner">
+          <figure class="story__figure">
+            <img
+              src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              alt="Fresh vegetables including carrots and beets on a rustic wooden table"
+              width="900"
+              height="900"
+              loading="lazy"
+            />
+          </figure>
+          <div class="story__text">
+            <p class="story__label">Our story</p>
+            <h2 class="story__heading" id="story-heading">Grown with intention, Served with love</h2>
+            <div class="story__body">
+              <p>
+                We partner with small farms across the Willamette Valley who share our respect for
+                soil, season, and craft. What arrives in our kitchen was often in the ground only
+                days before—never flown halfway around the world for the sake of a trend.
+              </p>
+              <p>
+                Our menu changes with the harvest: lighter and brighter as spring unfolds, deeper
+                and richer when the rains return. The Rooted Table is a place to slow down, share a
+                bottle, and taste Oregon on the plate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="specials" id="specials" aria-labelledby="specials-heading">
+        <div class="specials__inner">
+          <p class="specials__label">From our kitchen</p>
+          <h2 class="specials__title" id="specials-heading">Today's Specials</h2>
+          <div class="specials__grid">
+            <article class="special-card">
+              <img
+                class="special-card__img"
+                src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                alt="Bowl of spring mushroom risotto with herbs"
+                width="600"
+                height="600"
+                loading="lazy"
+              />
+              <div class="special-card__body">
+                <h3 class="special-card__name">Spring Mushroom Risotto</h3>
+                <p class="special-card__desc">Carnaroli rice, foraged mushrooms, pea shoots, pecorino.</p>
+                <span class="special-card__price">$16</span>
+              </div>
+            </article>
+            <article class="special-card">
+              <img
+                class="special-card__img"
+                src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                alt="Chilled soup with garnish in a bowl"
+                width="600"
+                height="600"
+                loading="lazy"
+              />
+              <div class="special-card__body">
+                <h3 class="special-card__name">Chilled English Pea Soup</h3>
+                <p class="special-card__desc">Mint oil, cultured cream, radish &amp; edible flowers.</p>
+                <span class="special-card__price">$12</span>
+              </div>
+            </article>
+            <article class="special-card">
+              <img
+                class="special-card__img"
+                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                alt="Artisan bread and butter on a wooden board"
+                width="600"
+                height="600"
+                loading="lazy"
+              />
+              <div class="special-card__body">
+                <h3 class="special-card__name">Sourdough &amp; Cultured Butter</h3>
+                <p class="special-card__desc">Wild yeast loaf, sea salt, honeycomb from Hood River.</p>
+                <span class="special-card__price">$8</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band" id="reservations" aria-labelledby="cta-heading">
+        <h2 class="cta-band__title" id="cta-heading">Join us at the table.</h2>
+        <p class="cta-band__text">
+          Reservations are recommended, especially on weekends. Walk-ins welcome based on availability.
+        </p>
+        <a class="btn-cta" href="mailto:reservations@rootedtable.example?subject=Reservation%20request">Make a reservation</a>
+      </section>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div class="site-footer__col">
+            <h2>The Rooted Table</h2>
+            <p>
+              A farm-to-table bistro celebrating Oregon growers, honest cooking, and the ritual of
+              gathering around a shared meal.
+            </p>
+          </div>
+          <div class="site-footer__col">
+            <h2>Hours</h2>
+            <p>
+              Tuesday–Thursday · 5:00–9:00 p.m.<br />
+              Friday–Saturday · 5:00–10:00 p.m.<br />
+              Sunday brunch · 10:00 a.m.–2:00 p.m.<br />
+              Monday · closed
+            </p>
+          </div>
+          <div class="site-footer__col">
+            <h2>Contact</h2>
+            <address>
+              Location<br />
+              428 NW 12th Avenue, Portland, OR 97209<br /><br />
+              Phone<br />
+              <a href="tel:+15035550182">(503) 555-0182</a><br /><br />
+              E-Mail<br />
+              <a href="mailto:hello@rootedtable.example">hello@rootedtable.example</a>
+            </address>
+          </div>
+          <p class="course-link">
+            <a href="../index.html">Course homepage</a> · IFSC 34203 final project
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
