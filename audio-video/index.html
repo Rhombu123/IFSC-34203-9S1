@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>audio / video assignment</title>
+<style>
+	body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 16px;background:#fafafa;}
+	h1{font-size:1.6rem;}
+	h2{margin-top:2rem;border-bottom:1px solid #ccc;padding-bottom:4px;}
+	video{width:100%;max-width:640px;height:auto;background:#000;}
+	audio{width:100%;max-width:480px;}
+	p{color:#333;line-height:1.45;}
+	a{color:#06c;}
+</style>
+</head>
+<body>
+
+<h1>HTML5 audio &amp; video (mobile web)</h1>
+<p>both examples below use sample files from MDN so they should play in the browser.</p>
+
+<h2>Video</h2>
+<p>flower video (cc0)</p>
+<video controls poster="">
+	<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+	<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+	your browser doesnt support video
+</video>
+
+<h2>Audio</h2>
+<p>t-rex roar sound (cc0)</p>
+<audio controls preload="metadata">
+	<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+	browser cant play this
+</audio>
+
+<p style="margin-top:2rem;"><a href="../index.html">back to course homepage</a></p>
+
+</body>
+</html>
